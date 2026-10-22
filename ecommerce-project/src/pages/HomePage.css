@@ -46,3 +46,13 @@
   flex-shrink: 0;
 }
 
+.product-rating-stars {
+  width: 100px;
+  height: auto;
+}
+
+.product-rating-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
