@@ -1,15 +1,8 @@
 import { Link } from 'react-router';
 import './header.css';
 export function Header( {cart= [] }){
-  // let totalQuantity =0;
-    
-  // cart.forEach((cartItem) => {
-  //    totalQuantity += cartItem.quantity;
-  // });
-//   const totalQuantity = cart.reduce((total, cartItem) => {
-//   return total + cartItem.quantity;
-// }, 0);
-const totalQuantity = Array.isArray(cart)
+ 
+ const totalQuantity = Array.isArray(cart)
     ? cart.reduce((total, cartItem) => {
         return total + (Number(cartItem.quantity) || 0);
       }, 0)
@@ -20,7 +13,7 @@ const totalQuantity = Array.isArray(cart)
       <div className="left-section">
         <Link to="/" className="header-link">
           <img className="logo"
-            src="images/logo2.png" />
+            src="images/logo-white.png" />
           <img className="mobile-logo"
             src="images/mobile-logo-white.png" />
         </Link>
