@@ -1,4 +1,6 @@
 .orders-page {
+  font-family: Arial, sans-serif;
+
   max-width: 850px;
   margin-top: 90px;
   margin-bottom: 100px;
@@ -136,6 +138,8 @@
 }
 
 .orders-page .buy-again-button {
+  background-color:  rgb(25, 135, 84);
+  color: white;
   font-size: 14px;
   width: 140px;
   height: 36px;
