@@ -1,8 +1,8 @@
 import dayjs from 'dayjs';
-import { formatMoney } from '../utils/money';
+import { formatMoney } from '../../utils/money';
 import axios from 'axios';
 import { useState, useEffect, Fragment } from 'react';
-import { Header } from '../components/Header';
+import { Header } from '../../components/Header';
 import './OrdersPage.css';
 
 export function OrdersPage({ cart }) {
@@ -110,7 +110,7 @@ export function OrdersPage({ cart }) {
                                             </Fragment>
                                         )
                                     })}
-                                <div className="product-details">
+                                {/* <div className="product-details">
                                         <div className="product-name">
                                             Adults Plain Cotton T-Shirt - 2 Pack
                                         </div>
@@ -132,7 +132,7 @@ export function OrdersPage({ cart }) {
                                                 Track package
                                             </button>
                                         </a>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                         );
